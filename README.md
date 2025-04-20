@@ -19,6 +19,7 @@ python -m venv venv
 pip install pandas pytest boto3 skyfield
 pip install -r requirements.txt
 source venv/bin/activate # or .\venv\Scripts\Activate.ps1
+```
 
 ### Sources
 * https://davincisatellite.nl/task-scheduling-on-the-satellite/
