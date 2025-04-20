@@ -8,3 +8,14 @@
 * Satellite-Specific Logic
     - Simulates task dependencies (e.g. download tasks requiring prior observation tasks)
     - Integrates SAR imaging constraints (e.g. pitch/roll angles, revisit rates)
+
+### Tools & Dependencies
+* Python 3.10+
+* Libraries ```pandas```(data handling), ```pytest``` (testing), ```boto3```(AWS integration), ```skyfield``` (orbit/visibility calculations)
+* Infrascruture: Docker, AWS Lambda (serverless), S3 (data storage)
+
+```bash
+python -m venv venv
+source venv/bin/activate
+
+pip install pandas pytest boto3 skyfield
