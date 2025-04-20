@@ -22,8 +22,8 @@ source venv/bin/activate # or .\venv\Scripts\Activate.ps1
 ```
 
 ### Notes
-1. What sort of data would I even be working with? Need to create fake data in order to explore the optimization algorithms. This is mostly going to be guesswork based on the research I've done, doesn't need to be perfect. Using Python dataclasses to create Satellite, GroundStation and ObservationTask class, representing (what I think might be) the key features to consider.
-Make fake JSON data. Create some satellite and ground station configs, write a script that generates fake observation tasks ./data/task_generator.py.
+1. What sort of data would I even be working with? Key objects: satellite, ground station, tasks. Create Python dataclasses for each, try to represent relevant fields (based on my research, lots of guesswork here). Create fake satellite/ground station JSON's, write a  task generator script for the task objects.
+
 
 ### Sources
 * https://davincisatellite.nl/task-scheduling-on-the-satellite/
