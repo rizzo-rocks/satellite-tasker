@@ -21,6 +21,9 @@ pip install -r requirements.txt
 source venv/bin/activate # or .\venv\Scripts\Activate.ps1
 ```
 
+### Notes
+1. Need to create fake data in order to explore the optimization algorithms. This is mostly going to be guesswork based on the research I've done, doesn't need to be perfect. Using Python dataclasses to create a Satellite and ObservationTask class, representing (what I think might be) the key features to consider.
+
 ### Sources
 * https://davincisatellite.nl/task-scheduling-on-the-satellite/
 * https://upcommons.upc.edu/bitstream/handle/2117/132523/satellite%20scheduling.pdf?sequence=3
