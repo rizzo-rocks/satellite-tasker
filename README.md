@@ -16,7 +16,6 @@
 * Set-Up:
 ```bash
 python -m venv venv
-source venv/bin/activate
-
 pip install pandas pytest boto3 skyfield
 pip install -r requirements.txt
+source venv/bin/activate # or .\venv\Scripts\Activate.ps1
