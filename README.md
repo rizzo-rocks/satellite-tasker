@@ -19,3 +19,4 @@ python -m venv venv
 source venv/bin/activate
 
 pip install pandas pytest boto3 skyfield
+pip install -r requirements.txt
