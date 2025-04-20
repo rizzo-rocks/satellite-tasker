@@ -1,0 +1,44 @@
+[
+    {
+        "id": "SAT-1",
+        "orbit_params": {"altitude_km": 500, "inclination_deg":97.3},
+        "max_power_w": 2000,
+        "data_capacity_gb": 512,
+        "downlink_rate_mbps": 548
+    },
+    {
+        "id": "SAT-2",
+        "orbit_params": {"altitude_km": 550, "inclination_deg":63.6},
+        "max_power_w": 2000,
+        "data_capacity_gb": 512,
+        "downlink_rate_mbps": 548
+    },
+    {
+        "id": "SAT-3",
+        "orbit_params": {"altitude_km": 600, "inclination_deg":90},
+        "max_power_w": 2000,
+        "data_capacity_gb": 512,
+        "downlink_rate_mbps": 548
+    },
+    {
+        "id": "SAT-4",
+        "orbit_params": {"altitude_km": 650, "inclination_deg":112.7},
+        "max_power_w": 2000,
+        "data_capacity_gb": 512,
+        "downlink_rate_mbps": 548
+    },
+    {
+        "id": "SAT-5",
+        "orbit_params": {"altitude_km": 700, "inclination_deg":47.7},
+        "max_power_w": 2000,
+        "data_capacity_gb": 512,
+        "downlink_rate_mbps": 548
+    },
+    {
+        "id": "SAT-6",
+        "orbit_params": {"altitude_km": 750, "inclination_deg":22.2},
+        "max_power_w": 2000,
+        "data_capacity_gb": 512,
+        "downlink_rate_mbps": 548
+    }
+]

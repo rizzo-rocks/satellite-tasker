@@ -1,0 +1,44 @@
+[
+    {
+        "station_id": "STN-1",
+        "location": [43.9420313, 12.4636664],
+        "elevation": 342,
+        "supported_bands": ["C", "X", "S"],
+        "max_downlink_rate_mbps": 548
+    },
+    {
+        "station_id": "STN-2",
+        "location": [25.3085357, 51.5119009],
+        "elevation": 3,
+        "supported_bands": ["C", "X", "S"],
+        "max_downlink_rate_mbps": 548
+    },
+    {
+        "station_id": "STN-3",
+        "location": [-86.115, -150.67278],
+        "elevation": 2605,
+        "supported_bands": ["C", "X", "S"],
+        "max_downlink_rate_mbps": 548
+    },
+    {
+        "station_id": "STN-4",
+        "location": [64.33, 16.8375],
+        "elevation": 1502,
+        "supported_bands": ["C", "X", "S"],
+        "max_downlink_rate_mbps": 548
+    },
+    {
+        "station_id": "STN-5",
+        "location": [40.245278, 105.60278],
+        "elevation": 4331,
+        "supported_bands": ["C", "X", "S"],
+        "max_downlink_rate_mbps": 548
+    },
+    {
+        "station_id": "STN-6",
+        "location": [-13.897222, -171.72222],
+        "elevation": 224,
+        "supported_bands": ["C", "X", "S"],
+        "max_downlink_rate_mbps": 548
+    }
+]
