@@ -1,4 +1,4 @@
-### Key Concepts:
+### Key Concepts
 * Optimization Algorithms
     - Implements greedy and dynamic programming approaches to maximize prioritization (e.g. profit-based or urgency-based scheduling)
     - Models constraints like satellite visibility windows, ground station communication limits, and resource availability (e.g. power, memory, etc)
