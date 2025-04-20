@@ -1,0 +1,1 @@
+# Mock AWS Lambda function for cloud integration
