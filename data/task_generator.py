@@ -8,6 +8,10 @@ Synthetic Task Generation
 """
 
 def generate_tasks(num_tasks:int):
+    if not isinstance(num_tasks, int):
+        raise TypeError(f"[ERROR]: generate_tasks() -- "\
+                            "num_tasks expects <int>, passed: <{type(num_tasks)}>")
+
     fake = Faker()
     tasks = []
 
