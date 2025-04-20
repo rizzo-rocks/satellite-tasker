@@ -10,10 +10,10 @@
     - Integrates SAR imaging constraints (e.g. pitch/roll angles, revisit rates)
 
 ### Tools & Dependencies
-* Python 3.10+
-* Libraries ```pandas```(data handling), ```pytest``` (testing), ```boto3```(AWS integration), ```skyfield``` (orbit/visibility calculations)
+* Language: Python 3.10+
+* Libraries: ```pandas```(data handling), ```pytest``` (testing), ```boto3```(AWS integration), ```skyfield``` (orbit/visibility calculations)
 * Infrascruture: Docker, AWS Lambda (serverless), S3 (data storage)
-
+* Set-Up:
 ```bash
 python -m venv venv
 source venv/bin/activate
