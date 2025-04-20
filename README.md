@@ -16,8 +16,8 @@
 * Set-Up:
 ```bash
 python -m venv venv
-pip install -r requirements.txt
 source venv/bin/activate # or .\venv\Scripts\Activate.ps1
+pip install -r requirements.txt
 ```
 
 ### Notes
