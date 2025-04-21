@@ -23,7 +23,7 @@ pip install -r requirements.txt
 ### Notes
 * What sort of data would I even be working with? Key objects: satellite, ground station, tasks. Create Python dataclasses for each, try to represent relevant fields (lots of guesswork here). Create fake satellite/ground station JSON's, write a  task generator script for the task objects.
 * Need a way to calculate visibility windows....
-* Takes me back to the first bullet-point with TLE's (Two-Line Element Set). Orbital mechanic data format (inclination, RAAN, eccentricity, argument of perigee, mean anomaly, mean motion, revolution number)
+* Takes me back to the first bullet-point with TLE's (Two-Line Element Set). Orbital mechanic data format (inclination, RAAN, eccentricity, argument of perigee, mean anomaly, mean motion, revolution number). See skyfield-tle-sandbox branch for a crash course on TLE's (and Skyfield). For dummy satellite data, use some TLE's from https://celestrak.org/.
 
 ### Sources
 * https://davincisatellite.nl/task-scheduling-on-the-satellite/
